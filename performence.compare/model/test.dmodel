@@ -1,0 +1,16 @@
+package t{
+	entity M{
+		op t(){
+			val selected  = ''	
+			(1..10).forEach[	
+			(1..10).forEach[
+			(1..10).forEach[	
+			(1..10).forEach[	
+			(1..10).forEach[	
+			(1..10).forEach[	
+				newArrayList.exists[it==selected]		
+			]]]]]]				
+			
+		}
+	}
+}

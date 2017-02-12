@@ -19,11 +19,11 @@ import org.eclipse.xtext.example.domainmodel.domainmodel.Entity
  * @author zhangtiange - Initial contribution and API
  */
 class DmodelTypeComputer extends XbaseWithAnnotationsTypeComputer {
-    override dispatch void computeTypes(XAbstractFeatureCall expression, ITypeComputationState state){
-    	val e = getContainerOfType(expression,Entity)
-    	val lineNumber = NodeModelUtils.getNode(expression).startLine
-    	println("computeTypes:"+e.class.name +'.'+e.name+'.'+lineNumber +'.'+expression.concreteSyntaxFeatureName)
-    	super._computeTypes(expression,state)
-    }
+//    override dispatch void computeTypes(XAbstractFeatureCall expression, ITypeComputationState state){
+//    	val e = getContainerOfType(expression,Entity)
+//    	val lineNumber = NodeModelUtils.getNode(expression).startLine
+//    	println("computeTypes:"+e.class.name +'.'+e.name+'.'+lineNumber +'.'+expression.concreteSyntaxFeatureName)
+//    	super._computeTypes(expression,state)
+//    }
 	
 }
